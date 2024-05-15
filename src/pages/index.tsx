@@ -1,4 +1,4 @@
-import {Banner, FeaturedCategories, Section} from "@/components"
+import {Banner, FeaturedCategories, MiniProductSlider, Section} from "@/components"
 export default function Home() {
   return (
       <>
@@ -14,7 +14,9 @@ export default function Home() {
              <h2 className="text-heading3 text-blue-300">Featured Categories</h2>
          </div>
          <FeaturedCategories/>
-
+     </section>
+     <section>
+         <MiniProductSlider/>
      </section>
           </>
   )
