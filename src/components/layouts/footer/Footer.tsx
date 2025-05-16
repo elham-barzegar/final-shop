@@ -3,8 +3,8 @@ import {IconBox, ImageView, Logo} from "@/components";
 export function Footer() {
     //TODO fix mobile menu
     return (
-        <footer className="container mb-[68px]">
-            <div className="mb-[68px]">
+        <footer className="container mb-[68px] m-[auto]">
+            <div className="mb-[68px] m-['auto']">
                 <div className="rounded-[6px] md:rounded-[14px] lg:rounded-[30px] bg-hero-pattern bg-[rgba(59,128,126,.2)] bg-opacity-20 bg-cover bg-top bg-no-repeat flex justify-between items-center mt-[38px] relative">
                     <div className="min-h-[160px] pl-3 pt-3 sm:pl-4 sm:pt4 md:pl-6 md:pt-6 lg:pl-10 lg:py-10 xl:pl-14 xl:py-14 2xl:py-[72px] 2xl:pl-[72px]">
                         <h2 className="max-w-[60%] text-heading5 sm:text-heading4 md:text-heading3 lg:text-heading2 tracking-[-0.04%] text-blue-300">Stay home & get your daily needs from our shop</h2>

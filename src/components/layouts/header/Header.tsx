@@ -3,7 +3,7 @@ import {M_PLUS_1} from "next/dist/compiled/@next/font/dist/google";
 
 export function Header() {
     return (
-        <header className="mb-[33px]">
+        <header className="mb-[33px] m-[auto] justify-items-center">
             <div className="container flex items-center justify-between py-4 md:py-6 xl:py-8">
                 <Logo/>
                 <div className="border-2 border-green-150 rounded-[5px] max-w-[700px] w-full mx-[15px] px-[15px] hidden lg:inline-block">
