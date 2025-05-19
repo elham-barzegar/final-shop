@@ -8,7 +8,7 @@ const apiClient = axios.create({
 })
 
 apiClient.interceptors.response.use(function (response) {
-        return response;
+        return response.data;
     },
     function (error) {
 
